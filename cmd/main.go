@@ -7,6 +7,8 @@ import (
 	"bot_lab/internal/model"
 	"fmt"
 	"log"
+	"strings"
+	"time"
 )
 
 var (
@@ -17,36 +19,48 @@ var (
 	DB_SETTINGS db.Credentials
 )
 
-func Reply(m model.Chat) {
-	Bot.SendMessage(m, "You too")
+func initHandlers() {
+	Bot.AddHandler(strings.ToLower("Hello"), func(m model.Message) {
+		Bot.SendMessage(m.Chat, "You too")
+	})
+	Bot.AddHandler(strings.ToLower("Привет"), func(m model.Message) {
+		message := fmt.Sprintf("Приветствуем Вас %s", m.From.FirstName)
+		Bot.SendMessage(m.Chat, message)
+	})
 }
 
 func main() {
-	log.Println("Started")
+	log.Println("[ ] Simple bot starting ")
 
 	DB_SETTINGS.FileName = "localDB.json"
 
+	log.Print("[ ] Инициализация базы данных ")
 	Database = &local.Database{}
 	err := Database.NewConnection(DB_SETTINGS)
-	rows := Database.GetMessages()
 
 	if err != nil {
 		log.Panicln("Невозможно подключиться к базе данных", err)
 	}
 
+	log.Println("[ ] Чтение базы данных ")
+	rows := Database.GetMessages()
+
 	Bot.New(API_URL, BOT_TOKEN)
 	Bot.LoadMessages(rows)
-	Bot.AddHandler("hello", Reply)
+	initHandlers()
+
+	log.Println("[ ] Прослушивание входящих сообщений")
 
 	messages := make(chan model.Message)
-	Bot.Poll(messages, "getUpdates", 3)
+	Bot.Poll(messages, "getUpdates", time.Second)
 
 	for {
 		message := <-messages
 		if Bot.Contains(message) {
 			continue
 		}
-		Bot.Add(message)
+
+		Bot.HandleMessage(message)
 		_ = Database.SaveMessage(message)
 
 		log.Println(fmt.Sprintf("Получено сообщение от пользователя %s: %s", message.From.Username, message.Text))

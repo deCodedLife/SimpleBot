@@ -20,7 +20,7 @@ func (db *Database) loadScheme() {
 	buff, err := io.ReadAll(db.File)
 
 	if err != nil {
-		log.Fatalf("Невозможно открыть базу данных ", err.Error())
+		log.Fatalf("Невозможно открыть базу данных " + err.Error())
 	}
 
 	if len(buff) == 0 {
@@ -30,7 +30,7 @@ func (db *Database) loadScheme() {
 	err = json.Unmarshal(buff, &db)
 
 	if err != nil {
-		log.Fatalf("Невозможно прочесть данные ", err.Error())
+		log.Fatalf("Невозможно прочесть данные " + err.Error())
 	}
 
 }
@@ -42,13 +42,13 @@ func (db *Database) saveDatabase() {
 	buff, err := json.Marshal(db)
 
 	if err != nil {
-		log.Panicln("Невозможно сформировать записи базы данных ", err.Error())
+		log.Panicln("Невозможно сформировать записи базы данных " + err.Error())
 	}
 
 	_, err = db.File.Write(buff)
 
 	if err != nil {
-		log.Fatalf("Невозможно записать данные в базу данных ", err.Error())
+		log.Fatalf("Невозможно записать данные в базу данных " + err.Error())
 	}
 }
 

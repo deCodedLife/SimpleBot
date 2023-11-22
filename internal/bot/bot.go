@@ -32,15 +32,20 @@ func (s *Bot) AddHandler(m string, h MessageHandler) {
 	s.handlers[m] = h
 }
 
-func (s *Bot) Add(m model.Message) {
-	if s.handlers[strings.ToLower(m.Text)] != nil {
-		s.handlers[strings.ToLower(m.Text)](m.Chat)
+func (s *Bot) HandleMessage(m model.Message) {
+	messageText, _ := strconv.Unquote("\"" + m.Text + "\"")
+	messageText = strings.ToLower(messageText)
+
+	if s.handlers[messageText] != nil {
+		s.handlers[messageText](m)
 	}
+
 	s.pool = append(s.pool, m)
 }
 
 func (s *Bot) SendMessage(c model.Chat, m string) {
 	var response ReplyMessage
+
 	response.ChatId = strconv.Itoa(c.Id)
 	response.Message = m
 
@@ -86,7 +91,7 @@ func (s *Bot) Poll(c chan model.Message, m string, d time.Duration) {
 				c <- msgCtx.Message
 			}
 
-			time.Sleep(time.Second * d)
+			time.Sleep(d)
 
 		}
 

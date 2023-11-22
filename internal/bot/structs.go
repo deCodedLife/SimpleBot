@@ -12,7 +12,7 @@ type Response struct {
 	Result []MessageContext `json:"result"`
 }
 
-type MessageHandler func(m model.Chat)
+type MessageHandler func(m model.Message)
 
 type ReplyMessage struct {
 	ChatId  string `json:"chat_id"`
@@ -20,8 +20,9 @@ type ReplyMessage struct {
 }
 
 type Bot struct {
-	ApiUrl   string
-	Token    string
+	ApiUrl string
+	Token  string
+
 	pool     []model.Message
 	handlers map[string]MessageHandler
 }
