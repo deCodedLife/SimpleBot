@@ -12,8 +12,9 @@ import (
 )
 
 var (
-	API_URL     = "https://api.telegram.org/bot"
-	BOT_TOKEN   = "6739808790:AAEmT1ZgyyBkRJzd1jg-FA-16s8NjTzHmg0"
+	API_URL   = "https://api.telegram.org/bot"
+	BOT_TOKEN = "6739808790:AAEmT1ZgyyBkRJzd1jg-FA-16s8NjTzHmg0"
+
 	Bot         bot.Bot
 	Database    db.DatabaseHandler
 	DB_SETTINGS db.Credentials
@@ -26,6 +27,10 @@ func initHandlers() {
 	Bot.AddHandler(strings.ToLower("Привет"), func(m model.Message) {
 		message := fmt.Sprintf("Приветствуем Вас %s", m.From.FirstName)
 		Bot.SendMessage(m.Chat, message)
+	})
+	Bot.AddHandler(strings.ToLower("Сколько сейчас времени?"), func(m model.Message) {
+		currentTime := fmt.Sprintf("%d-%d-%d %d:%d", time.Now().Day(), time.Now().Month(), time.Now().Year(), time.Now().Hour(), time.Now().Minute())
+		Bot.SendMessage(m.Chat, currentTime)
 	})
 }
 
