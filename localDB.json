@@ -1,1 +1,1336 @@
-{"messages":[{"message_id":45,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700690604,"text":"Hello","entities":null},{"message_id":56,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700691418,"text":"Nyan","entities":null},{"message_id":57,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700691424,"text":"hello","entities":null},{"message_id":59,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700693997,"text":"Тестовое сообщение","entities":null},{"message_id":60,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694090,"text":"привет","entities":null},{"message_id":61,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694106,"text":"Привет","entities":null},{"message_id":62,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694114,"text":"hello","entities":null},{"message_id":64,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694400,"text":"привет","entities":null},{"message_id":65,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694441,"text":"привет","entities":null},{"message_id":66,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694455,"text":"привет","entities":null},{"message_id":75,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694536,"text":"hello","entities":null},{"message_id":77,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694542,"text":"Привет","entities":null},{"message_id":79,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694550,"text":"Что то на еврейском","entities":null},{"message_id":80,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694790,"text":"Привет","entities":null},{"message_id":82,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700694913,"text":"Привет","entities":null},{"message_id":84,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700765972,"text":"сколько сейчас времени?","entities":null},{"message_id":86,"from":{"id":727561180,"is_bot":false,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","language_code":"ru"},"chat":{"id":727561180,"first_name":"Grisha","last_name":"コーダー","username":"deCodedLife","type":"private"},"date":1700766091,"text":"сколько сейчас времени?","entities":null}]}
+{
+  "messages": [
+    {
+      "update_id": 974341350,
+      "message": {
+        "message_id": 1,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711977789,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341351,
+      "message": {
+        "message_id": 2,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711977927,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341352,
+      "message": {
+        "message_id": 3,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711977973,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341353,
+      "message": {
+        "message_id": 4,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978056,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341354,
+      "message": {
+        "message_id": 5,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978082,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341355,
+      "message": {
+        "message_id": 6,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978322,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341356,
+      "message": {
+        "message_id": 7,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978337,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341357,
+      "message": {
+        "message_id": 8,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978416,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341358,
+      "message": {
+        "message_id": 9,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978433,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341359,
+      "message": {
+        "message_id": 10,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978447,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341360,
+      "message": {
+        "message_id": 11,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711978514,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341365,
+      "message": {
+        "message_id": 27,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711979772,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341367,
+      "message": {
+        "message_id": 37,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711979907,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341370,
+      "message": {
+        "message_id": 39,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711980101,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341373,
+      "message": {
+        "message_id": 41,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711980267,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341376,
+      "message": {
+        "message_id": 58,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711980412,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341381,
+      "message": {
+        "message_id": 60,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711980547,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341383,
+      "message": {
+        "message_id": 79,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711981116,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341387,
+      "message": {
+        "message_id": 99,
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "chat": {
+          "id": 5884616524,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "type": "private"
+        },
+        "date": 1711981730,
+        "text": "/start",
+        "entities": [
+          {
+            "offset": 0,
+            "length": 6,
+            "type": "bot_command"
+          }
+        ]
+      },
+      "callback_query": {
+        "id": "",
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "message": {
+          "message_id": 0,
+          "from": {
+            "id": 0,
+            "is_bot": false,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 0,
+            "first_name": "",
+            "last_name": "",
+            "username": "",
+            "type": ""
+          },
+          "date": 0,
+          "text": "",
+          "entities": null
+        },
+        "chat_instance": "",
+        "data": ""
+      }
+    },
+    {
+      "update_id": 974341388,
+      "message": {
+        "message_id": 0,
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "chat": {
+          "id": 0,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "type": ""
+        },
+        "date": 0,
+        "text": "",
+        "entities": null
+      },
+      "callback_query": {
+        "id": "6827491449961973773",
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "message": {
+          "message_id": 100,
+          "from": {
+            "id": 7154811283,
+            "is_bot": true,
+            "first_name": "DocaCRM_test",
+            "last_name": "",
+            "username": "Docacrm_bot",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 5884616524,
+            "first_name": "コーダーライフ",
+            "last_name": "",
+            "username": "reCodedLife",
+            "type": "private"
+          },
+          "date": 1711981730,
+          "text": "You too",
+          "entities": null
+        },
+        "chat_instance": "433955572288840116",
+        "data": "confirm"
+      }
+    },
+    {
+      "update_id": 974341389,
+      "message": {
+        "message_id": 0,
+        "from": {
+          "id": 0,
+          "is_bot": false,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "language_code": ""
+        },
+        "chat": {
+          "id": 0,
+          "first_name": "",
+          "last_name": "",
+          "username": "",
+          "type": ""
+        },
+        "date": 0,
+        "text": "",
+        "entities": null
+      },
+      "callback_query": {
+        "id": "6827491446685758238",
+        "from": {
+          "id": 5884616524,
+          "is_bot": false,
+          "first_name": "コーダーライフ",
+          "last_name": "",
+          "username": "reCodedLife",
+          "language_code": "ru"
+        },
+        "message": {
+          "message_id": 100,
+          "from": {
+            "id": 7154811283,
+            "is_bot": true,
+            "first_name": "DocaCRM_test",
+            "last_name": "",
+            "username": "Docacrm_bot",
+            "language_code": ""
+          },
+          "chat": {
+            "id": 5884616524,
+            "first_name": "コーダーライフ",
+            "last_name": "",
+            "username": "reCodedLife",
+            "type": "private"
+          },
+          "date": 1711981730,
+          "text": "You too",
+          "entities": null
+        },
+        "chat_instance": "433955572288840116",
+        "data": "confirm"
+      }
+    }
+  ]
+}

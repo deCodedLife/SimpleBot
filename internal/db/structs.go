@@ -13,6 +13,6 @@ type Credentials struct {
 type DatabaseHandler interface {
 	NewConnection(c Credentials) error
 	DropConnection()
-	SaveMessage(m model.Message) error
-	GetMessages() []model.Message
+	SaveMessage(m model.MessageContext) error
+	GetMessages() []model.MessageContext
 }

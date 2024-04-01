@@ -60,12 +60,12 @@ func (db *Database) DropConnection() {
 	}
 }
 
-func (db *Database) SaveMessage(m model.Message) error {
+func (db *Database) SaveMessage(m model.MessageContext) error {
 	db.Messages = append(db.Messages, m)
 	db.saveDatabase()
 	return nil
 }
 
-func (db *Database) GetMessages() []model.Message {
+func (db *Database) GetMessages() []model.MessageContext {
 	return db.Messages
 }

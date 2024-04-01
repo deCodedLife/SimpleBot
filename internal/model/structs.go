@@ -31,3 +31,17 @@ type Message struct {
 	Text      string   `json:"text"`
 	Entities  []Entity `json:"entities"`
 }
+
+type CallbackQuery struct {
+	ID           string  `json:"id"`
+	From         User    `json:"from"`
+	Message      Message `json:"message"`
+	ChatInstance string  `json:"chat_instance"`
+	Data         string  `json:"data"`
+}
+
+type MessageContext struct {
+	UpdateId      int           `json:"update_id"`
+	Message       Message       `json:"message,omitempty"`
+	CallbackQuery CallbackQuery `json:"callback_query,omitempty"`
+}

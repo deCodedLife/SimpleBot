@@ -6,7 +6,7 @@ import (
 )
 
 type Database struct {
-	FileName string          `json:"-"`
-	File     *os.File        `json:"-"`
-	Messages []model.Message `json:"messages"`
+	FileName string                 `json:"-"`
+	File     *os.File               `json:"-"`
+	Messages []model.MessageContext `json:"messages"`
 }

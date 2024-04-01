@@ -7,13 +7,14 @@ import (
 	"bot_lab/internal/model"
 	"fmt"
 	"log"
+	"strconv"
 	"strings"
 	"time"
 )
 
 var (
 	API_URL   = "https://api.telegram.org/bot"
-	BOT_TOKEN = "6739808790:AAEmT1ZgyyBkRJzd1jg-FA-16s8NjTzHmg0"
+	BOT_TOKEN = "7154811283:AAGb4a4eUfpHY-e4PkRXIARJ_EL-wAyn5jI"
 
 	Bot         bot.Bot
 	Database    db.DatabaseHandler
@@ -21,16 +22,41 @@ var (
 )
 
 func initHandlers() {
-	Bot.AddHandler(strings.ToLower("Hello"), func(m model.Message) {
-		Bot.SendMessage(m.Chat, "You too")
+	Bot.AddMessageHandler(strings.ToLower("/start"), func(m model.Message) {
+		var response bot.ReplyMessage
+		response.ChatId = strconv.Itoa(m.Chat.Id)
+		response.Message = "You too"
+
+		var buttons []bot.InlineKeyboardButton
+		buttons = append(buttons, bot.InlineKeyboardButton{
+			Text:         "Подтвердить",
+			CallbackData: "confirm",
+		})
+		buttons = append(buttons, bot.InlineKeyboardButton{
+			Text:         "Отменить",
+			CallbackData: "cancel",
+		})
+		response.ReplyMarkup.InlineKeyboard = append(response.ReplyMarkup.InlineKeyboard, buttons)
+
+		Bot.SendMessage(response)
 	})
-	Bot.AddHandler(strings.ToLower("Привет"), func(m model.Message) {
-		message := fmt.Sprintf("Приветствуем Вас %s", m.From.FirstName)
-		Bot.SendMessage(m.Chat, message)
+	Bot.AddMessageHandler(strings.ToLower("Привет"), func(m model.Message) {
+		var response bot.ReplyMessage
+		response.ChatId = strconv.Itoa(m.Chat.Id)
+		response.Message = fmt.Sprintf("Приветствуем Вас %s", m.From.FirstName)
+		Bot.SendMessage(response)
 	})
-	Bot.AddHandler(strings.ToLower("Сколько сейчас времени?"), func(m model.Message) {
-		currentTime := fmt.Sprintf("%d-%d-%d %d:%d", time.Now().Day(), time.Now().Month(), time.Now().Year(), time.Now().Hour(), time.Now().Minute())
-		Bot.SendMessage(m.Chat, currentTime)
+	Bot.AddMessageHandler(strings.ToLower("Сколько сейчас времени?"), func(m model.Message) {
+		var response bot.ReplyMessage
+		response.ChatId = strconv.Itoa(m.Chat.Id)
+		response.Message = fmt.Sprintf("%d-%d-%d %d:%d", time.Now().Day(), time.Now().Month(), time.Now().Year(), time.Now().Hour(), time.Now().Minute())
+		Bot.SendMessage(response)
+	})
+	Bot.AddCallbackHandler("confirm", func(m model.CallbackQuery) {
+		var response bot.ReplyMessage
+		response.ChatId = strconv.Itoa(m.Message.Chat.Id)
+		response.Message = fmt.Sprintf("Ждём Вас на приёме %s", m.From.FirstName)
+		Bot.SendMessage(response)
 	})
 }
 
@@ -51,24 +77,28 @@ func main() {
 	rows := Database.GetMessages()
 
 	Bot.New(API_URL, BOT_TOKEN)
+
 	Bot.LoadMessages(rows)
 	initHandlers()
 
 	log.Println("[ ] Прослушивание входящих сообщений")
 
-	messages := make(chan model.Message)
+	messages := make(chan model.MessageContext)
 	Bot.Poll(messages, "getUpdates", time.Second)
 
 	for {
 		message := <-messages
+
 		if Bot.Contains(message) {
 			continue
 		}
 
-		Bot.HandleMessage(message)
+		Bot.Handle(message)
 		_ = Database.SaveMessage(message)
 
-		log.Println(fmt.Sprintf("Получено сообщение от пользователя %s: %s", message.From.Username, message.Text))
+		log.Println(fmt.Sprintf("Получено сообщение от пользователя %s: %s", message.Message.From.Username, message.Message.Text))
 	}
+
+	//_ = http.ListenAndServe(":8080", nil)
 
 }
